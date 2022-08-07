@@ -57,8 +57,8 @@ def object_dump(file_name, object_to_dump):
     return None
 
 
-def find_beta_vectorised(final_sevs, I0):
-    return np.vectorize(find_beta)(final_sevs, I0)
+def find_beta_vectorised(final_sevs, I0, tol=1e-4):
+    return np.vectorize(find_beta)(final_sevs, I0, tol)
 
 
 def ode_simple(t, y, beta_):
@@ -129,7 +129,7 @@ def find_sev_given_beta_and_no_control(beta_, I0=DEFAULT_I0):
 #
 
 
-def find_beta(final_sev, I0=DEFAULT_I0):
+def find_beta(final_sev, I0=DEFAULT_I0, tol=1e-4):
 
     if final_sev > 1:
         print(f'Warning: {final_sev=}>1')
@@ -143,7 +143,7 @@ def find_beta(final_sev, I0=DEFAULT_I0):
         [INITIAL_GUESS],
         args=(final_sev, I0),
         bounds=[bds],
-        tol=1e-4,
+        tol=tol,
         method='Powell',
     )
 
@@ -187,6 +187,15 @@ def host_growth_function(t, S, y):
 
 
 def yield_function(sev):
+    """Yield as a function of disease severity.
+
+    sev : float
+        number in [0,1]
+
+    NB !! in the paper sev is a percentage so need to multiply by 100 to get
+    corresponding relationship 
+    """
+
     # Load Gam
     filename = 'gam.pickle'
     with open(filename, 'rb') as f:
