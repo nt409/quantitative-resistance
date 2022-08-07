@@ -1,0 +1,15 @@
+﻿Parameter,Value,Units,Notes,Explanation,Source
+,,,,,
+Price of wheat,117.14,£/Tonne,,,https://bsppjournals.onlinelibrary.wiley.com/doi/epdf/10.1111/ppa.13155
+,,,,,
+Cost 1 spray,42.4,£/ha,,32.4 per spray + £10 per spray,https://bsppjournals.onlinelibrary.wiley.com/doi/epdf/10.1111/ppa.13155
+Cost 2 sprays,84.8,£/ha,,,https://bsppjournals.onlinelibrary.wiley.com/doi/epdf/10.1111/ppa.13155
+Cost 3 sprays,127.2,£/ha,,,https://bsppjournals.onlinelibrary.wiley.com/doi/epdf/10.1111/ppa.13155
+,,,,,
+Host_growth_rate,0.0126,,,,"Elderfield 2018, Hobbelen 2011 delaying"
+Host_growth_initial_area,0.012195121951219514,,,0.05/4.1,Hobbelen 2011 delaying
+,,,,,
+T1,1456,degree days,GS32,Emergence leaf 3,
+T2,1700,degree days,GS39,,"van den Berg et al., 2013 & Elderfield 2018"
+T3,2066,degree days,GS61,,"van den Berg et al., 2013 & Elderfield 2018"
+T_end,2515,degree days,GS75,GS75 is final time. used to use GS87 = 2900. Have interpolated,"van den Berg et al., 2013 & Elderfield 2018"
