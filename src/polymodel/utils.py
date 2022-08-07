@@ -1,8 +1,9 @@
-"""Contains:
+"""Utility functions and classes
 
-utility functions
+Functions:
+Many utility functions for running the model
 
-classes:
+Classes:
 Fungicide
 """
 

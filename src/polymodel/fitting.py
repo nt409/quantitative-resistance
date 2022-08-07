@@ -1,3 +1,5 @@
+"""Fitting functions and classes"""
+
 import copy
 from datetime import datetime
 

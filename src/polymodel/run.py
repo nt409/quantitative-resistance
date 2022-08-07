@@ -1,7 +1,18 @@
 """
-Functions to run model - wrapped in run.py
+Functions to run model:
+- simulations_run
+- multiple_run
+- no_joblib_simulations_run
+- no_joblib_multiple_run
 
-NB need to document!
+By default, we use 'joblib' to cache the result, but if you don't want to do
+this then use no_joblib_simulations_run. The arguments/implementation are
+exactly the same apart from the use of joblib to cache.
+
+simulations_run is for a single run, whereas multiple_run is for N runs in an
+ensemble with environmental stochasticity (infection rate beta varies) 
+
+Supposed to be used with Config from config.py
 """
 
 import copy

@@ -1,3 +1,11 @@
+"""Polygenic model(s)
+
+Contains the following classes:
+- SimulatorOneTrait (either fungicide or host protection)
+- SimulatorBothTraits (model with fungicide and host protection)
+
+"""
+
 import numpy as np
 from scipy.integrate import ode
 
@@ -19,8 +27,7 @@ from polymodel.utils import (
 
 
 class SimulatorOneTrait:
-    """Sets up and runs a single model simulation for fung OR host trait.
-    """
+    """Sets up and runs a single model simulation for fung OR host trait."""
 
     def __init__(
         self,

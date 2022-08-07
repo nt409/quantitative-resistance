@@ -1,5 +1,7 @@
 """
-This file sets up the parameters for the polygenic model
+This file sets up the parameters for the polygenic model, designed to be used
+with simulations_run and multiple_run from simulator.py.
+
 """
 
 import numpy as np

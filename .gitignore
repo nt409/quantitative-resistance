@@ -12,6 +12,8 @@ data/03_model_inputs/*
 
 pickled
 
+old_fitting
+
 figures
 
 logs

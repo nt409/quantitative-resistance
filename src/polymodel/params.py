@@ -1,3 +1,9 @@
+"""Parameters
+
+Loads important model parameters into a convenient form to use in simulator.py
+and other files.
+"""
+
 import pandas as pd
 
 
