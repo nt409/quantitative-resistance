@@ -1,0 +1,35 @@
+data/*
+
+!data/03_model_inputs/beta_sampled
+!data/03_model_inputs/beta_value
+!data/03_model_inputs/constants
+!data/03_model_inputs/fitted
+!data/03_model_inputs/I0_value
+!data/03_model_inputs/lambda_fitted
+!data/03_model_inputs/mutation_scale
+
+pickled
+
+figures
+
+logs
+
+*.egg-info/
+__pycache__/
+
+dist/
+# *.py[cod]
+*ipynb_checkpoints/
+
+# notebooks/*
+# *.ipynb
+
+TODO.md
+cluster_advice.md
+*.cfg
+*.toml
+*.code-workspace
+
+*.log
+
+joblib_cache/

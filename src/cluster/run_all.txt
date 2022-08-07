@@ -1,0 +1,18 @@
+sbatch cluster/app3_fit.submit
+sbatch cluster/f3_median.submit
+sbatch cluster/f4_fung_stoch.submit
+sbatch cluster/f5_host_run_F.submit
+sbatch cluster/f5_host_run_T.submit
+sbatch cluster/f6_mutual.submit
+sbatch cluster/f6_replacement_mutual.submit
+
+# THEN
+
+python -m cluster.app3_fit_pp
+python -m cluster.f3_median_pp
+python -m cluster.f4_fung_stoch_pp
+python -m cluster.f5_host_run_F_pp
+python -m cluster.f5_host_run_T_pp
+python -m cluster.f6_mutual_pp
+python -m cluster.f6_replacement_mutual_pp
+
