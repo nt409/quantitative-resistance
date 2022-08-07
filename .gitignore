@@ -12,7 +12,7 @@ data/03_model_inputs/*
 
 pickled
 
-old_fitting
+src/old_fitting
 
 figures
 
