@@ -21,6 +21,9 @@ logs
 *.egg-info/
 __pycache__/
 
+.gitignore
+.gitattributes
+
 dist/
 # *.py[cod]
 *ipynb_checkpoints/
