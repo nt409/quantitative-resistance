@@ -45,7 +45,7 @@ def combine_fung_df():
     f_gpd = (
         f_df
         .groupby(['sprays', 'year'])
-        .median()
+        .mean()
         .reset_index()
         .drop('run', axis=1)
     )
