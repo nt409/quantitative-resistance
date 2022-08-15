@@ -22,8 +22,8 @@ class Config:
         sprays=None,
         host_on=None,
         #
-        n_k=50,
-        n_l=50,
+        n_k=100,
+        n_l=100,
         #
         n_iterations=None,
         n_years=15,
