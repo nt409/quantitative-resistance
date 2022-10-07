@@ -4,7 +4,7 @@
 
 Model of quantitative fungicide resistance and quantitative cultivar
 protection, applied to septoria of winter wheat. The model is fitted to field
-data and is described in the paper [Modelling quantitative fungicide resistance and breakdown of resistant cultivars: designing integrated disease management strategies for Septoria of winter wheat](https://www.biorxiv.org/content/10.1101/2022.08.10.503500v1.full)
+data and is described in the paper: '[Modelling quantitative fungicide resistance and breakdown of resistant cultivars: designing integrated disease management strategies for Septoria of winter wheat](https://www.biorxiv.org/content/10.1101/2022.08.10.503500v1.full)'.
 
 ## Code
 
