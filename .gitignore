@@ -10,6 +10,8 @@ data/03_model_inputs/*
 !data/03_model_inputs/lambda_fitted.csv
 !data/03_model_inputs/mutation_scale.csv
 
+data_old/*
+
 pickled
 
 src/old_fitting
